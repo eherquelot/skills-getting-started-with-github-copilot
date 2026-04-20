@@ -6,7 +6,7 @@ from fastapi import HTTPException
 from src import app as app_module
 
 
-class TestMergingtonApi(unittest.TestCase):
+class TestActivitiesApp(unittest.TestCase):
     def setUp(self):
         self.original_activities = copy.deepcopy(app_module.activities)
 
